@@ -1,0 +1,59 @@
+#footer{
+    width: 1000px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    height:30px;
+    background-color: #37457B;
+    color:#FFFFFF;
+    border-top: #778899;
+    color:#f4fffe;
+    border-radius:3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    left:50%;
+    margin-left: -500px;
+    z-index: 1100;
+}
+
+html > body #footer{
+    position:fixed;
+}
+
+div#footer > div#user_bar{
+    position:absolute;
+    right:0px;
+    top:0px;
+    margin-right: 10px;
+}
+
+div#electronbar{
+    height: 100%;
+    position:absolute;
+    left:0px;
+    top:0px;
+    margin-left: 10px;
+}
+div#electronbar input{
+    width: 260px;
+    transition:none;
+    -webkit-transition: none;
+    -moz-transition: none;
+}
+div#electronbar > form{
+    height: 100%;
+}
+div#electronbar button{
+    display:none;
+    position:relative;
+    height: 29px;
+    border-radius:4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+div#footer a{
+    color:inherit;
+}
+div#footer a:visited{
+    color: #f4fffe;
+}

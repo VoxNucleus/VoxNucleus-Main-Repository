@@ -1,0 +1,92 @@
+.rank > .fail{
+    background-color: red;
+    width: 100px;
+    height: 20px;
+    right:20px;
+}
+
+*.rank{
+    float:right;
+    right:0px;
+    text-align: center;
+    width: 60px;
+    height:80px;
+    margin-top: 1.5em;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+div#post_description > div.rank{
+    margin-top: 0px;
+}
+/* Number of votes*/
+.rank > div.nbVotes{
+    border: 1px solid #C94F58;
+    border-top-right-radius:7px;
+    -moz-border-radius-topright:7px;
+    -webkit-border-top-right-radius:7px;
+    border-top-left-radius:7px;
+    -moz-border-radius-topleft:7px;
+    -webkit-border-top-left-radius:7px;
+    text-align: center;
+    width: 60px;
+}
+*.rank div.nbVotes  div.score{
+    font-size: 250%;
+    font-weight: bolder;
+    
+}
+*.rank div.nbVotes  div.text_vote{
+        font-size: 70%;
+    font-weight: bolder;
+
+}
+/* Zone below number */
+.rank > div.vote_zone{
+    width: 60px;
+    border: 1px solid #C94F58;
+    border-bottom-right-radius:7px;
+    -moz-border-radius-bottomright:7px;
+    -webkit-border-bottom-right-radius:7px;
+    border-bottom-left-radius:7px;
+    -moz-border-radius-bottomleft:7px;
+    -webkit-border-bottom-left-radius:7px;
+    font-weight: bolder;
+    background-color: #C94F58;
+}
+div.rank > div.vote_zone a{
+    color: white;
+}
+
+.rank > .vote_zone:hover{
+    cursor:pointer;
+}
+
+/* General layout for a popup */
+.rank > .popup{
+    text-align: center;
+    position: relative;
+    z-index: 5;
+    display: none;
+    border-radius:5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    font-size: 90%;
+    bottom: -40px;
+}
+
+
+.rank > .success{
+    background-color: green;
+    width:70px;
+    right:9px;
+}
+
+.rank > .already{
+    background-color: yellow;
+    width: 80px;
+    right:10px;
+}
+
+.rank > .error{
+    background-color: red;
+}

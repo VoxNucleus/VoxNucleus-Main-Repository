@@ -1,0 +1,46 @@
+div#explanation_box > div.explanation_expand{
+    font-size: smaller;
+    cursor:pointer;
+    border-bottom: 1px dashed black;
+    margin-bottom: 5px;
+}
+div#explanation_box > div.explanation_text{
+    font-style: italic;
+}
+div#explanation_box > div#explanation_text{
+    display:none;
+}
+div#explanation_box{
+    display:block;
+    background-color: white;
+    padding:1em;
+    width: 90%;
+    border-radius:10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    behavior:url(/static/border-radius.htc);
+}
+div#explanation_text{
+    margin: 5px 0px 10px 0px;
+}
+div#twitter_join{
+    font-weight: bold;
+    text-align: center;
+}
+div#twitter_join img{
+    position: relative;
+    top:10px;
+    left:5px;
+    border:none;
+}
+div#facebook_join{
+    font-weight: bold;
+    text-align: center;
+}
+div#facebook_join img{
+
+    position: relative;
+    top:10px;
+    left:5px;
+    border:none;
+}

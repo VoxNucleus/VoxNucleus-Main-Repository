@@ -1,0 +1,19 @@
+div#informations{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+td.left_col{
+    font-weight: bold;
+    width: 250px;
+}
+select,input{
+    width: 400px;
+}
+fieldset legend{
+    font-weight: bolder;
+}
+fieldset#renew_password{
+    border-color: red;
+    border-style: dotted;
+}
