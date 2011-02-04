@@ -1,0 +1,12 @@
+# Hi everyone ! I almost forgot to fill this file. I don't know what you are
+#searching here there is really nothing interesting. Have fun browsing VoxNucleus
+# Salut à tous ! J'ai failli oublier de créer ce fichier. Je ne sais pas ce que
+#tu recherches ici, y'a vraiment rien d'intéressant ! J'espère que la navigation
+# sur voxnucleus te plaira. A bientôt !
+# Victor Kabdebon
+User-agent:*
+Disallow: /administration/
+Disallow: /widget/
+Disallow: /request/
+Disallow: /image/
+Disallow: /r/

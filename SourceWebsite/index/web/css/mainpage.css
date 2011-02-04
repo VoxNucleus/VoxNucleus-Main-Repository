@@ -1,0 +1,16 @@
+root { 
+    display: block;
+}
+body{
+    padding-bottom: 2em;
+}
+
+html > body #footer{
+    position:fixed;
+}
+
+h1{
+    font-family: sans-serif;
+    color:#3366CC;
+}
+

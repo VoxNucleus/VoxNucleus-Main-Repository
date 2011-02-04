@@ -1,0 +1,89 @@
+/* This is the big box containing the things that are displayed */
+#content{
+    display:block;
+    position : relative;
+    background-color: white;
+    left:0px;
+    padding:2em 1em;
+    width: 69%;
+    /* height: 100%; */
+    border-radius:10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    /** IE trick **/
+    behavior:url(/static/border-radius.htc);
+}
+div#float_right{
+    position:absolute;
+    display:block;
+    top:0px;
+    right: 0px;
+    width: 27%;
+    padding-bottom: 40px;
+}
+div.lateral_box{
+    font-weight: bolder;
+    display:block;
+    background-color: white;
+    padding:1em;
+    margin-bottom: 15px;
+    width: 90%;
+    border-radius:10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    /** IE trick **/
+    behavior:url(/static/border-radius.htc);
+}
+div.lateral_box div.best_mini_list{
+    position:fixed;
+    display:block;
+}
+div.lateral_box div.mini_post{
+    display:block;
+    text-decoration: none;
+    font-weight: lighter;
+    height: 40px;
+    width:100%;
+    overflow: hidden;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 2px dashed black;
+}
+div.lateral_box img{
+    display:block;
+    float:left;
+    width:40px;
+    height:40px;
+    padding: 0px;
+}
+div.mini_post > a{
+    display:block;
+    text-align: center;
+    width:62%;
+    height: 40px;
+    right:0px;
+    padding: 0px 5px 0px 5px;
+    overflow:hidden;
+    margin-right: 0px;
+}
+div.mini_post > div.nbVotes{
+    font-weight:bold;
+    font-size:larger;
+    display: inline-block;
+    text-align: center;
+    width:40px;
+    height:35px;
+    line-height: 35px;
+    float:right;
+    position: relative;
+    top:-40px;
+    border: 1px solid #C94F58;
+    border-radius:5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    /** IE trick **/
+    behavior:url(/static/border-radius.htc);
+}
+
+
+
