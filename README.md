@@ -26,8 +26,8 @@ Instructions :
 Installation
 ____________
 
-### Logicielse
-Ce point est un peu delicat et sera expliqué par la suite.
+### Logiciels
+Ce point est un peu delicat et sera explique par la suite.
 Il faut avoir installe les logiciels suivants (les fichiers de configuration seront fournis) :
 * Apache Cassandra 0.6.8
 * PostGreSQL 8.3+
