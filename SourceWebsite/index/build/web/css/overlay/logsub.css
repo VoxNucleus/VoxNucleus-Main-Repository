@@ -1,0 +1,111 @@
+.logsuboverlay{
+    z-index: 100;
+    background-color: #fff;
+    width: 675px;
+    min-height: 200px;
+    border: 3px solid #666;
+    border-radius:15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius:15px;
+    color:white;
+    opacity:0.98;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=98)";
+    filter:alpha(opacity=98);
+}
+.logsuboverlay .left_col{
+    width: 200px;
+}
+.logsuboverlay  input{
+    width: 300px;
+
+}
+ul.logsub_tabs{
+    padding: 0px;
+    list-style: none;
+    margin:0;
+    height: 30px;
+    list-style-type: none;
+    
+}
+ul.logsub_tabs a.current{
+    color: red;
+}
+ul.logsub_tabs> li{
+    text-align: center;
+    display: inline;
+}
+ul.logsub_tabs a{
+    text-decoration: none;
+    font-size: 120%;
+    width: 50%;
+    height: 30px;
+    line-height: 30px;
+    display:inline-block;
+}
+
+#logsub > .close {
+    height: 35px;
+    width:35px;
+    position: absolute;
+    cursor: pointer;
+    right: -15px;
+    top:-15px;
+    background-image: url("/image/website/overlay/close_overlay.png");
+}
+#logsub > .close:hover {
+    background-image: url("/image/website/overlay/close_overlay_hover.png");
+}
+#quick_login_form  input{
+    width: 150px;
+}
+#quick_login, #quick_subscribe{
+    margin: 10px;
+    padding: 0 5px 0 5px;
+    background: #7D85C7; /* for non-css3 browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7D85C7', endColorstr='#949FDD'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#7D85C7), to( #949FDD)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #7D85C7, #949FDD ); /* for firefox 3.6+ */
+
+}
+#quick_login_form button{
+    color:#FFF;
+    height: auto;
+    background-color: #94A3D6;
+    border-radius:3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius:3px;
+    border: none;
+    border-bottom: 2px solid #1C3661;
+    border-top: 2px solid #E3EDFF;
+}
+#quick_login_form button:active{
+    background-color: #5A6DA3;
+}
+#quick_subscribe_form td{
+    text-align: right;
+    width: auto;
+}
+#quick_subscribe_form input{
+    width: 250px;
+}
+#quick_subscribe_form button{
+    color:#FFF;
+    position: absolute;
+    bottom: 60px;
+    right: 20px;
+    height: 50px;
+    background-color: #FF5742;
+    border-radius:3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius:3px;
+    border: none;
+    border-bottom: 2px solid #630F08;
+    border-top: 2px solid #E8D4D1;
+}
+#quick_subscribe_form button:active{
+    background-color: #DB3A2E;
+}
+#subscribe_title{
+    font-family:"Impact";
+    font-size: 200%;
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+    <servlet>
+        <servlet-name>Best</servlet-name>
+        <servlet-class>FallingDown.www.best.Best</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Interesting</servlet-name>
+        <servlet-class>FallingDown.www.interesting.Interesting</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Lastest</servlet-name>
+        <servlet-class>FallingDown.www.latest.Lastest</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Best</servlet-name>
+        <url-pattern>/best/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Interesting</servlet-name>
+        <url-pattern>/interesting/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Lastest</servlet-name>
+        <url-pattern>/lastest/*</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>best/</welcome-file>
+    </welcome-file-list>
+
+
+    <error-page>
+        <error-code>500</error-code>
+        <location>/error.jsp</location>
+    </error-page>
+
+    <error-page>
+        <error-code>404</error-code>
+        <location>/error.jsp</location>
+    </error-page>
+</web-app>
