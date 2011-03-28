@@ -1,0 +1,37 @@
+form{
+    padding : 3px 6px 3px 6px;
+}
+form input,select{
+    width: 250px;
+}
+#mandatory_informations{
+    width:800px;
+    padding: 1em;
+    border : 1px dotted #aaaaaa;
+        margin-left: auto;
+    margin-right: auto;
+}
+
+#account_personnalization{
+    width: 800px;
+    padding: 1em;
+    border : 1px dotted #aaaaaa;
+    margin : 1em;
+        margin-left: auto;
+    margin-right: auto;
+}
+#verification{
+    width: 800px;
+    padding: 1em;
+    border : 1px dotted #aaaaaa;
+    margin : 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+#verification > img{
+    float :left;
+}
+table tr td.left_col{
+    font-weight: bold;
+    width: 300px;
+}

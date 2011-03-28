@@ -1,0 +1,17 @@
+Mon Nov 08 18:16:40 CET 2010 SEVERE org.apache.solr.client.solrj.SolrServerException: java.net.ConnectException: Connection refused
+Mon Nov 08 18:16:45 CET 2010 SEVERE org.apache.solr.client.solrj.SolrServerException: java.net.ConnectException: Connection refused
+Mon Nov 08 18:16:48 CET 2010 SEVERE org.apache.solr.client.solrj.SolrServerException: java.net.ConnectException: Connection refused
+Mon Nov 08 18:16:52 CET 2010 SEVERE org.apache.solr.client.solrj.SolrServerException: java.net.ConnectException: Connection refused
+Mon Nov 08 18:17:03 CET 2010 SEVERE org.apache.solr.client.solrj.SolrServerException: java.net.ConnectException: Connection refused
+Mon Nov 08 18:19:08 CET 2010 SEVERE org.apache.solr.client.solrj.SolrServerException: java.net.ConnectException: Connection refused
+Mon Nov 08 18:19:10 CET 2010 SEVERE org.apache.solr.client.solrj.SolrServerException: java.net.ConnectException: Connection refused
+Mon Nov 08 18:19:10 CET 2010 SEVERE org.apache.solr.client.solrj.SolrServerException: java.net.ConnectException: Connection refused
+Mon Nov 08 18:19:10 CET 2010 SEVERE org.apache.solr.client.solrj.SolrServerException: java.net.ConnectException: Connection refused
+Mon Nov 08 18:19:10 CET 2010 SEVERE org.apache.solr.client.solrj.SolrServerException: java.net.ConnectException: Connection refused
+Sun Dec 19 21:39:23 CET 2010 SEVERE Le post cherché n'existe pas
+Wed Dec 22 22:46:00 CET 2010 SEVERE org.apache.solr.client.solrj.SolrServerException: java.net.ConnectException: Connection refused
+Wed Dec 22 22:46:00 CET 2010 SEVERE org.apache.solr.client.solrj.SolrServerException: java.net.ConnectException: Connection refused
+Wed Dec 22 22:46:00 CET 2010 SEVERE org.apache.solr.client.solrj.SolrServerException: java.net.ConnectException: Connection refused
+Wed Dec 22 22:46:00 CET 2010 SEVERE org.apache.solr.client.solrj.SolrServerException: java.net.ConnectException: Connection refused
+Wed Dec 22 22:46:00 CET 2010 SEVERE org.apache.solr.client.solrj.SolrServerException: java.net.ConnectException: Connection refused
+Wed Dec 22 22:46:00 CET 2010 SEVERE org.apache.solr.client.solrj.SolrServerException: java.net.ConnectException: Connection refused

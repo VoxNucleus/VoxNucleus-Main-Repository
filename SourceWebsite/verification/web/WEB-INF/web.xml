@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+    <servlet>
+        <servlet-name>VerifyURL</servlet-name>
+        <servlet-class>FallingDown.newpost.VerifyURL</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>VerifyUser</servlet-name>
+        <servlet-class>FallingDown.user.VerifyUser</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SearchAutoComplete</servlet-name>
+        <servlet-class>me.voxnucleus.autocomplete.search.SearchAutoComplete</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TagsAutoComplete</servlet-name>
+        <servlet-class>me.voxnucleus.autocomplete.tags.TagsAutoComplete</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>VerifyURL</servlet-name>
+        <url-pattern>/verifyurl</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>VerifyUser</servlet-name>
+        <url-pattern>/verifyuser</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SearchAutoComplete</servlet-name>
+        <url-pattern>/autocomplete/search</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TagsAutoComplete</servlet-name>
+        <url-pattern>/autocomplete/tags</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

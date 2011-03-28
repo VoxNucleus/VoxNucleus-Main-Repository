@@ -1,0 +1,27 @@
+root { 
+    display: block;
+}
+
+fieldset{
+    width: 400px;
+    padding: 1em;
+    border : 1px dotted #aaaaaa;
+    margin : auto;
+    top:50%;
+    left:50%;
+    
+}
+fieldset > input{
+    margin : auto;
+    top:50%;
+    left:50%;
+}
+
+.mini_centered{
+    font-size: smaller;
+    margin:auto;
+    text-align: center;
+}
+#suscribe > a{
+    
+}

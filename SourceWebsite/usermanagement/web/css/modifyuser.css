@@ -1,0 +1,33 @@
+root { 
+    display: block;
+}
+
+
+form{
+    padding : 3px 6px 3px 6px;
+}
+
+#mandatory_informations{
+    width:600px;
+    padding: 1em;
+    border : 1px dotted #aaaaaa;
+    margin:1em;
+}
+
+#account_personnalization{
+    width: 600px;
+    padding: 1em;
+    border : 1px dotted #aaaaaa;
+    margin : 1em;
+
+}
+
+#verification{
+    width: 600px;
+    padding: 1em;
+    border : 1px dotted #aaaaaa;
+    margin : 1em;
+}
+#verification > img{
+    float :left;
+}
